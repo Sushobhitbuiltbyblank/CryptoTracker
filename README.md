@@ -11,7 +11,12 @@
 A SwiftUI iOS app to track the top 20 cryptocurrencies, with persistent watchlist storage, search/filter, and auto-refresh.
 
 ---
+## Project Demo
+The following GIF showcases the core functionality of the project:
 
+![Demo of functionality](https://github.com/Sushobhitbuiltbyblank/CryptoTracker/blob/main/SimulatorScreenRecording-iPhone16Pro-2025-07-23at00.53.18-ezgif.com-speed.gif)
+
+----
 ## 🎯 Features
 
 - Top 20 coins with live price updates every 60 seconds  
