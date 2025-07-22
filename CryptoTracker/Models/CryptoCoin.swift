@@ -6,3 +6,9 @@
 //
 
 import Foundation
+struct CryptoCoin: Identifiable, Codable {
+    let id: String
+    let symbol: String
+    let name: String
+    let current_price: Double
+}
