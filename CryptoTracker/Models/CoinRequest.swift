@@ -11,7 +11,7 @@ protocol APIClientRequest {
     var request: URLRequest? { get }
 }
 
-enum CoinRequest: APIClientRequest {
+enum CoinAPIRequest: APIClientRequest {
     case coins(currentPage: Int, pageLimit: Int)
 
     var baseURL: URL? {

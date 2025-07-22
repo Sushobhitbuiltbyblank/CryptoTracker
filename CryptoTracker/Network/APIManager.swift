@@ -17,7 +17,7 @@ enum APIError: Error {
     case urlSessionError(Error)
 }
 
-final class APIManager: Sendable {
+final class APIManager {
     private let session: URLSession
 
     init(session: URLSession = .shared) {

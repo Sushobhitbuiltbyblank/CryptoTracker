@@ -30,11 +30,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		2B85BAF62E2F68EC00A1CC67 /* CryptoTracker */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CryptoTracker;
-			sourceTree = "<group>";
-		};
 		2B85BB042E2F68EF00A1CC67 /* CryptoTrackerTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CryptoTrackerTests;
@@ -43,6 +38,11 @@
 		2B85BB0E2E2F68EF00A1CC67 /* CryptoTrackerUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CryptoTrackerUITests;
+			sourceTree = "<group>";
+		};
+		2B85BB482E2F6F7200A1CC67 /* CryptoTracker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CryptoTracker;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,7 +75,7 @@
 		2B85BAEB2E2F68EC00A1CC67 = {
 			isa = PBXGroup;
 			children = (
-				2B85BAF62E2F68EC00A1CC67 /* CryptoTracker */,
+				2B85BB482E2F6F7200A1CC67 /* CryptoTracker */,
 				2B85BB042E2F68EF00A1CC67 /* CryptoTrackerTests */,
 				2B85BB0E2E2F68EF00A1CC67 /* CryptoTrackerUITests */,
 				2B85BAF52E2F68EC00A1CC67 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				2B85BAF62E2F68EC00A1CC67 /* CryptoTracker */,
+				2B85BB482E2F6F7200A1CC67 /* CryptoTracker */,
 			);
 			name = CryptoTracker;
 			packageProductDependencies = (
@@ -417,7 +417,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -449,7 +449,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
