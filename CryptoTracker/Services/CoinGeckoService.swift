@@ -44,7 +44,9 @@ struct MockCoinGeckoService: CoinGeckoServiceProtocol {
 
         do {
             let data = try Data(contentsOf: url)
-            let decoded = try JSONDecoder().decode([CryptoCoin].self, from: data)
+            let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            let decoded = try decoder.decode([CryptoCoin].self, from: data)
             return decoded
         } catch {
             throw MockServiceError.decodingFailed(error)

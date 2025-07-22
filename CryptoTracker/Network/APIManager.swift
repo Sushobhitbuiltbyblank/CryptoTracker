@@ -40,7 +40,9 @@ final class APIManager {
             }
 
             do {
-                let decoded = try JSONDecoder().decode(T.self, from: data)
+                let decoder = JSONDecoder()
+                decoder.keyDecodingStrategy = .convertFromSnakeCase
+                let decoded = try decoder.decode(T.self, from: data)
                 return decoded
             } catch {
                 throw APIError.decodingError(error)
